@@ -1,0 +1,176 @@
+/* Sets universal attributes */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    background-color:slategrey;
+}
+/* Sets header attributes */
+.header {
+    background-color: darkslateblue;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+h1 {
+    display: inline;
+}
+
+.header nav {
+    float: right;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.picture {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+.picture img {
+    width: 70%;
+}
+
+.about-me {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.about-me h2 {
+    display: flex;
+    width: 70%;
+    margin-left: 50px;
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+.about-me h2::after {
+    content: "";
+    border-right: 5px solid black;
+    padding-left: 30px;
+}
+
+.about-me p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:larger;
+}
+
+/* Sets attributs for work section */
+.work {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+  
+}
+.work h2 {
+    display: flex;
+    width: 70%;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.work h2::after {
+    content: "";
+    border-right: 5px solid black;
+    padding-left: 90px;
+}
+
+.card { 
+    width: 100%;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: beige;
+    margin-right: 20px;
+    
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+/* Sets attributes for contact me section */
+.contact-me {
+    background-color: darkslateblue;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+
+.contact-me h2 {
+  margin-left: 30px;
+  font-size: 30px;
+  display: inline;
+}
+
+.contact-me nav {
+    float: right;   
+}
+
+.contact-me nav ul li {
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+/* Sets hover color and border */
+a:hover{
+    color: wheat;
+  }
+
+  .card:hover {
+    border: 4px solid darkslateblue;
+    background-color: antiquewhite;
+   }  
+
+/* Sets media attributes when max-width is 768px (mobile friendly) */
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+   
+    .card {
+        margin-left: 250px;
+        margin-bottom: 10px;
+    }
+}
+
+
