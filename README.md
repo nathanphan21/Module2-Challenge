@@ -1,6 +1,6 @@
 # Module2-Challenge: About Me Webpage
 
-##Description
+## Description
 I wanted to create a webpage that showcased my work and projects as well as creating a Contact-Me section so people have the ability to reach out to me.
 
 ![Alt text](<Screenshot 2023-08-31 at 8.06.31 PM.png>)
