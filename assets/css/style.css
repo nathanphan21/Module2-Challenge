@@ -193,6 +193,7 @@ a:hover{
         width: 100%;
     }
 }
+/* Sets media attributes for max-width 980px */
 @media (max-width: 980px) {
     .header {
         background-color: darkslategray;
